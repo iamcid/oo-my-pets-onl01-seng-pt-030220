@@ -52,7 +52,7 @@ class Owner
   end 
   
   def feed_cats
-    cats.each{|c| c.mood = "happy"}
+    cats.each {|c| c.mood = "happy"}
   end
   
  def sell_pets
